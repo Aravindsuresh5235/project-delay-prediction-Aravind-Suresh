@@ -1,32 +1,36 @@
-# project-delay-prediction-Aravind-Suresh
-This project aims to predict project delays using project management data. It includes an end-to-end data analysis pipeline: from data cleaning and visualization to predictive modeling and mitigation strategy. The dataset contains fields such as planned vs. actual dates, resource allocation, and risk indicators.
+# Project Delay Prediction
 
-## Objective
-To predict project delays using simulated project management data.
+## 📌 Objective
+To develop a simple machine learning model to predict project delays using project management data, and suggest one mitigation strategy.
 
-## How to Run:
-Clone this repository or download the ZIP file.
+## 📊 Dataset
+- A simulated dataset with planned vs. actual dates, resource allocation, and risk indicators.
+- File: `SAMPLE DATA.xlsx`
 
-Open the Jupyter Notebook in a local environment.
+## 🧹 Data Preparation
+- Cleaned missing values
+- Converted date fields into duration
+- Encoded categorical variables
 
-Make sure the following Python libraries are installed:
+## 📈 Exploratory Data Analysis (EDA)
+- Visualized delay distributions and key feature relationships using bar plots and scatter plots.
 
-pandas
+## 🤖 Model
+- Logistic Regression to predict delay (yes/no)
+- Evaluated using Accuracy & AUC score
 
-numpy
+## ✅ Mitigation Strategy
+- Increase resource allocation if risk score exceeds a defined threshold.
 
-matplotlib
+## 🔄 What-if Analysis
+- Used interactive parameter tuning to visualize impact of resource adjustment on delay prediction.
 
-seaborn
+## 📁 Files
+- `Project_Delay_Prediction-Aravind-Suresh.ipynb`: Full analysis and model
+- `SAMPLE DATA.xlsx`: Input dataset
 
-scikit-learn
-
-Run the notebook cells sequentially.
-
-##  Insights:
-Visualization shows how resource allocation and risk levels relate to project delays.
-
-Logistic regression is used to predict delay likelihood.
-
-A strategy is suggested to increase resources when the risk exceeds a threshold.
+## ▶️ How to Run
+1. Clone this repository
+2. Open the notebook in JupyterLab or VSCode
+3. Run cells in order
 
